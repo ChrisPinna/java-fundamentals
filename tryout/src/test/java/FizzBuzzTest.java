@@ -18,4 +18,11 @@ public class FizzBuzzTest {
         String result = subject.generate(2);
         assertEquals("1, 2", result);
     }
+
+    @Test
+    void testGenerateFizzesAtNumberThree() {
+        FizzBuzz subject = new FizzBuzz();
+        String result = subject.generate(3);
+        assertEquals("1, 2, Fizz", result);
+    }
 }
