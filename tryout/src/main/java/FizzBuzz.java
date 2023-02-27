@@ -3,7 +3,9 @@ public class FizzBuzz {
         StringBuilder sb = new StringBuilder();
 
         for (int i = 1; i <= upto; i++) {
-            if (i % 3 == 0) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                sb.append(", FizzBuzz");
+            } else if (i % 3 == 0) {
                 sb.append(", Fizz");
             } else if (i % 5 == 0) {
                 sb.append(", Buzz");
