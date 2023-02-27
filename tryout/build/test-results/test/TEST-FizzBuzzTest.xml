@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FizzBuzzTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-02-27T12:48:21" hostname="christianpinna-ThinkPad-T480" time="0.03">
+<testsuite name="FizzBuzzTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-02-27T12:52:16" hostname="christianpinna-ThinkPad-T480" time="0.029">
   <properties/>
-  <testcase name="testGenerateFizzesAtNumberThree()" classname="FizzBuzzTest" time="0.024"/>
-  <testcase name="testGenerateListsNumbersUpToOne()" classname="FizzBuzzTest" time="0.002"/>
+  <testcase name="testGenerateBuzzesAtNumberFive()" classname="FizzBuzzTest" time="0.021"/>
+  <testcase name="testGenerateFizzesAtNumberThree()" classname="FizzBuzzTest" time="0.001"/>
+  <testcase name="testGenerateListsNumbersUpToOne()" classname="FizzBuzzTest" time="0.001"/>
   <testcase name="testGenerateListsNumbersUpToTwo()" classname="FizzBuzzTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -5,6 +5,8 @@ public class FizzBuzz {
         for (int i = 1; i <= upto; i++) {
             if (i % 3 == 0) {
                 sb.append(", Fizz");
+            } else if (i % 5 == 0) {
+                sb.append(", Buzz");
             } else if (i == 1) {
                 sb.append("1");
             } else {

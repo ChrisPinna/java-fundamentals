@@ -25,4 +25,11 @@ public class FizzBuzzTest {
         String result = subject.generate(3);
         assertEquals("1, 2, Fizz", result);
     }
+
+    @Test
+    void testGenerateBuzzesAtNumberFive() {
+        FizzBuzz subject = new FizzBuzz();
+        String result = subject.generate(5);
+        assertEquals("1, 2, Fizz, 4, Buzz", result);
+    }
 }
